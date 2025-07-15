@@ -1,6 +1,12 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
+variable "db_encrypted" {
+  description = "Encrypt the database storage"
+  type = bool
+}
+
+
 variable "region" {
   description = "AWS region for all resources."
   type        = string
