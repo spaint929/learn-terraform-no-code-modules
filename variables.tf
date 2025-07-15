@@ -6,6 +6,9 @@ variable "db_encrypted" {
   type = bool
 }
 
+variable "newthing" {
+  type = string
+}
 
 variable "region" {
   description = "AWS region for all resources."
