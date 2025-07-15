@@ -29,3 +29,6 @@ output "rds_username" {
   sensitive   = true
 }
 
+output "newthing" {
+  value = var.newthing
+}
